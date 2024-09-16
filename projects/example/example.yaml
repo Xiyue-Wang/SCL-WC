@@ -1,0 +1,41 @@
+General:
+    result_dir: projects/results
+    fold_num: 4
+    seed: 233
+    exp_type: repeat
+
+Data:
+    n_classes: 2
+    dataset_name: BagDataset
+    dataset:
+        train_set:
+            csv_path: ./train_set.csv
+        val_set:
+            csv_path: ./val_set.csv
+    data_dir: ./patch_feature
+
+Model:
+    model_type: public
+    model_name: SCL
+    size_arg: small
+    logits_field: bag_logits
+Train:
+    optimizer: Adam
+    reg: 1.0e-5
+    lr: 3.0e-4
+    max_epochs: 100
+    train_function: SCL
+    val_function: classification_general
+    CosineAnnealingLR:
+        T_max: 50
+        eta_min: 1.0e-6
+    Early_stopping:
+        type: auc
+        patient: 20
+        stop_epoch: 30
+    batch_size : 32
+    num_worker: 16
+    is_augment: True
+    balance: True
+    train_set_size: 400
+

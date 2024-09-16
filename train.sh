@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python3 train.py --config_path projects/example/example.yaml --set_seed --begin 0 --end 1
