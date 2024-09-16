@@ -10,7 +10,7 @@
 
 You need to process the WSI into the following format. The processing method can be found in  https://github.com/mahmoodlab/CLAM
 
-The **CTransPath** feature extractor and the pretrained model can be download in  https://github.com/Xiyue-Wang/TransPath
+The **[CTransPath](https://github.com/Xiyue-Wang/TransPath)** feature extractor and the pretrained model can be download in  
 
 
 
