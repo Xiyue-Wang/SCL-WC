@@ -99,4 +99,22 @@ python train.py --config_path [config path] --begin [begin index] --end [end ind
 `--begin` and `--end` used to control repetitive experiments
 
 
+## License
+
+RetCCL is released under the GPLv3 License and is available for non-commercial academic purposes.
+
+### Citation
+Please use below to cite this paper if you find our work useful in your research.
+```
+@article{wang2022scl,
+  title={Scl-wc: Cross-slide contrastive learning for weakly-supervised whole-slide image classification},
+  author={Wang, Xiyue and Xiang, Jinxi and Zhang, Jun and Yang, Sen and Yang, Zhongyi and Wang, Ming-Hui and Zhang, Jing and Yang, Wei and Huang, Junzhou and Han, Xiao},
+  journal={Advances in neural information processing systems},
+  volume={35},
+  pages={18009--18021},
+  year={2022}
+}
+``` 
+
+
 

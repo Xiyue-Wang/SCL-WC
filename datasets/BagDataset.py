@@ -20,7 +20,7 @@ class BagDataset(Dataset):
     def __getitem__(self, idx):
         label = self.df[self.label_field].values[idx]
 
-        slide_id = str(self.df['case_id'].values[idx])
+        slide_id = str(self.df['slide_id'].values[idx])
 
         # load from pt files
         if 'feature_path' in self.df.columns:
