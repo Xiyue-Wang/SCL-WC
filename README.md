@@ -101,7 +101,7 @@ python train.py --config_path [config path] --begin [begin index] --end [end ind
 
 ## License
 
-RetCCL is released under the GPLv3 License and is available for non-commercial academic purposes.
+SCL is released under the GPLv3 License and is available for non-commercial academic purposes.
 
 ### Citation
 Please use below to cite this paper if you find our work useful in your research.
